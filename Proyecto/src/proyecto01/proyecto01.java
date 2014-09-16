@@ -21,10 +21,17 @@ public class proyecto01 {
             "Unimarc", "Jumbo", "Acuenta", "Alvi"};
         return supermercados;
     }
-
-    public static void precio(String[] prod, String[] sup) {
-        
-        
+    
+    public static void precio(String []superemercado, String [] productos){
+    	
+    }
+    
+    public static String buscador(String []superemercado, String [] productos, String []precio){
+    	
+    	String buscarProducto=JOptionPane.showInputDialog("Ingrese el producto que quiere buscar");
+    	
+    	String precioySuper="";
+    	return precioySuper;
     }
 
 }
